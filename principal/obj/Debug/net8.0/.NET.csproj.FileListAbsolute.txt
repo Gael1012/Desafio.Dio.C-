@@ -12,3 +12,4 @@ C:\Users\aloci\OneDrive\Área de Trabalho\codes\.NET\principal\obj\Debug\net8.0\
 C:\Users\aloci\OneDrive\Área de Trabalho\codes\.NET\principal\obj\Debug\net8.0\.NET.pdb
 C:\Users\aloci\OneDrive\Área de Trabalho\codes\.NET\principal\obj\Debug\net8.0\.NET.genruntimeconfig.cache
 C:\Users\aloci\OneDrive\Área de Trabalho\codes\.NET\principal\obj\Debug\net8.0\ref\.NET.dll
+C:\Users\aloci\OneDrive\Área de Trabalho\codes\.NET\principal\obj\Debug\net8.0\.NET.sourcelink.json

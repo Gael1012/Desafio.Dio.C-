@@ -120,8 +120,17 @@ public static void Excluir()
         {
             if (vagas[vagaExcluir] != null)
             {
+                Console.WriteLine("quantas horas o carro ficou estacionado?");
+                int hrsparking = Convert.ToInt32(Console.ReadLine());
+                hrsparking = hrsparking * 60;
+                Console.WriteLine($"o Valor foi de R${hrsparking}");
+                Console.WriteLine("JA foi pago ?");
+                string pg = Console.ReadLine();
+                pg = pg.ToLower();
+                if(pg =="s" || pg == "sim"){
                 Console.WriteLine($"Vaga {vagaExcluir} liberada. Carro com placa {vagas[vagaExcluir].CPlaca} foi removido.");
-                vagas[vagaExcluir] = null;
+                vagas[vagaExcluir] = null;}
+                else{Excluir();}
             }
             else
             {
