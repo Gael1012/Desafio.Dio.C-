@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Objetos;
 using Name;
+using System.Diagnostics;
 
 
 
@@ -106,6 +107,8 @@ public static class Menu
                 Console.WriteLine($"Vaga: {vagas[i].CVaga}\nPlaca: {vagas[i].CPlaca}");
             }
         }
+        Console.Clear();
+        Menu.Principal();
         }
 
 
